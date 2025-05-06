@@ -2,7 +2,7 @@
 
 A modern, responsive personal website built with Next.js and Tailwind CSS. This website features a clean, professional design with dark/light mode support and a fully responsive layout.
 
-![Website Preview](public/profile_pic.png)
+![Image](https://github.com/user-attachments/assets/2bb97737-887c-4300-9e51-426a382685ef)
 
 ## Features
 
