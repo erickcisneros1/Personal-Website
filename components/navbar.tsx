@@ -76,7 +76,7 @@ export function Navbar() {
               Contact
             </Link>
             <Button asChild variant="outline" size="sm" className="ml-4 rounded-full">
-              <a href="/Erick_Cisneros_Resume.pdf" download className="flex items-center">
+              <a href="/Erick_Cisneros_Ruballos_Resume.pdf" download className="flex items-center">
                 <Download className="mr-2 h-4 w-4" />
                 Resume
                 <ChevronRight className="ml-1 h-4 w-4" />
@@ -133,7 +133,7 @@ export function Navbar() {
               Contact
             </Link>
             <Button asChild variant="outline" size="sm" className="w-full mt-2 rounded-full">
-              <a href="/Erick_Cisneros_Resume.pdf" download className="flex items-center justify-center">
+              <a href="/Erick_Cisneros_Ruballos_Resume.pdf" download className="flex items-center justify-center">
                 <Download className="mr-2 h-4 w-4" />
                 Resume
                 <ChevronRight className="ml-1 h-4 w-4" />
