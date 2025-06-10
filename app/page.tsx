@@ -131,14 +131,6 @@ export default function Home() {
                   </li>
                   <li className="flex items-center gap-3">
                     <div className="bg-primary/10 p-2 rounded-full">
-                      <Phone className="h-5 w-5 text-primary" />
-                    </div>
-                    <a href="tel:8455072057" className="hover:text-primary transition-colors">
-                      845-507-2057
-                    </a>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="bg-primary/10 p-2 rounded-full">
                       <Globe className="h-5 w-5 text-primary" />
                     </div>
                     <a
@@ -802,17 +794,6 @@ export default function Home() {
                         className="hover:text-primary transition-colors text-lg"
                       >
                         erick.cisneros2@proton.me
-                      </a>
-                    </div>
-                  </li>
-                  <li className="flex items-center gap-4">
-                    <div className="bg-primary/10 p-3 rounded-full">
-                      <Phone className="h-5 w-5 text-primary" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-foreground/70">Phone</p>
-                      <a href="tel:8455072057" className="hover:text-primary transition-colors text-lg">
-                        845-507-2057
                       </a>
                     </div>
                   </li>
