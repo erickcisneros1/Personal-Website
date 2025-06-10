@@ -93,7 +93,7 @@ export default function Home() {
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-2 border-white/10">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 mix-blend-overlay z-10"></div>
                   <img
-                    src="/profile_pic.png" 
+                    src="/profile_pic.jpg" 
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
