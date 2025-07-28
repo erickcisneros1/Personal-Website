@@ -558,28 +558,28 @@ export default function Home() {
             <div className="modern-card glass group">
               <div className="absolute top-0 right-0 p-4">
                 <div className="bg-primary/10 p-2 rounded-full">
-                  <Terminal className="h-5 w-5 text-primary" />
+                  <Search className="h-5 w-5 text-primary" />
                 </div>
               </div>
               <div className="mb-4">
                 <Badge variant="outline" className="bg-primary/10 border-primary/30 rounded-full">
-                  Automation
+                  Monitoring
                 </Badge>
               </div>
               <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
-                PowerShell Vulnerability Remediation
+                Microsoft Sentinel Workbooks
               </h3>
               <p className="text-foreground/70 mb-6 leading-relaxed">
-                Created a collection of PowerShell scripts to automate the remediation of common vulnerabilities across
-                Windows servers and workstations.
+                Developed comprehensive Microsoft Sentinel workbooks for monitoring logon failures, malicious traffic,
+                and security events using threat intelligence and KQL queries.
               </p>
               <div className="flex justify-between items-center mt-6">
                 <div className="flex gap-2">
                   <Badge variant="secondary" className="rounded-full">
-                    PowerShell
+                    Microsoft Sentinel
                   </Badge>
                   <Badge variant="secondary" className="rounded-full">
-                    Windows
+                    KQL
                   </Badge>
                 </div>
                 <Button
@@ -589,7 +589,7 @@ export default function Home() {
                   className="rounded-full group-hover:bg-primary/10 group-hover:text-primary transition-all"
                 >
                   <a
-                    href="https://github.com/erickcisneros1/PowerShell-Remediation"
+                    href="https://github.com/erickcisneros1/Portfolio/tree/main/Threat%20Hunting%20Projects/Sentinel%20Workbooks"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center"
@@ -637,7 +637,7 @@ export default function Home() {
                   className="rounded-full group-hover:bg-primary/10 group-hover:text-primary transition-all"
                 >
                   <a
-                    href="https://github.com/erickcisneros1/STIG-Implementation"
+                    href="https://github.com/erickcisneros1/Portfolio/tree/main"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center"
