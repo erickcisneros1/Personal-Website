@@ -17,6 +17,7 @@ import {
   Terminal,
   CheckCircle2,
   ChevronRight,
+  Bot,
 } from "lucide-react"
 
 export default function Home() {
@@ -384,34 +385,44 @@ export default function Home() {
                 </div>
               </div>
 
-              <ul className="space-y-4 mt-4">
-                <li className="flex gap-3">
-                  <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
-                    <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
-                  </div>
-                  <span className="leading-relaxed">
-                    Troubleshoot, diagnose, repair, and resolve service concerns for select Apple hardware and software.
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
-                    <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
-                  </div>
-                  <span className="leading-relaxed">
-                    Use extensive knowledge of hardware and software components to identify where technical issues may
-                    originate from and educate others on the team.
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
-                    <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
-                  </div>
-                  <span className="leading-relaxed">
-                    Delivered tailored product recommendations and solutions to Apple customers, leveraging in-depth
-                    knowledge of devices and services to drive sales and customer satisfaction.
-                  </span>
-                </li>
-              </ul>
+                             <ul className="space-y-4 mt-4">
+                 <li className="flex gap-3">
+                   <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
+                     <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
+                   </div>
+                   <span className="leading-relaxed">
+                     Consistently achieved a 100% repair success rate, delivering high-quality, first-time resolutions for Apple
+                     hardware and software issues in alignment with Genius Bar standards.
+                   </span>
+                 </li>
+                 <li className="flex gap-3">
+                   <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
+                     <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
+                   </div>
+                   <span className="leading-relaxed">
+                     Maintained one of the highest NPS scores in the region, reflecting exceptional customer satisfaction and trust
+                     throughout the service experience.
+                   </span>
+                 </li>
+                 <li className="flex gap-3">
+                   <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
+                     <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
+                   </div>
+                   <span className="leading-relaxed">
+                     Supported team development by mentoring peers on diagnostic techniques and Apple repair procedures,
+                     improving overall team capability and service consistency.
+                   </span>
+                 </li>
+                 <li className="flex gap-3">
+                   <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
+                     <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
+                   </div>
+                   <span className="leading-relaxed">
+                     Drove sales and customer loyalty by recommending tailored products and service solutions based on individual
+                     customer needs, resulting in increased attachment rates.
+                   </span>
+                 </li>
+               </ul>
             </div>
 
             {/* Computuners */}
@@ -426,26 +437,33 @@ export default function Home() {
                 </div>
               </div>
 
-              <ul className="space-y-4 mt-4">
-                <li className="flex gap-3">
-                  <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
-                    <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
-                  </div>
-                  <span className="leading-relaxed">
-                    Completed partial or full dismantling of equipment to quickly repair or replace defective components
-                    and restore functionality.
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
-                    <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
-                  </div>
-                  <span className="leading-relaxed">
-                    Use extensive knowledge of hardware and software components to identify where technical issues may
-                    originate from and educate others on the team.
-                  </span>
-                </li>
-              </ul>
+                             <ul className="space-y-4 mt-4">
+                                  <li className="flex gap-3">
+                    <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
+                      <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
+                    </div>
+                    <span className="leading-relaxed">
+                      Executed computer repair, hardware upgrades, and custom PC builds, ensuring optimal system performance and enhanced user experiences.
+                    </span>
+                  </li>
+                 <li className="flex gap-3">
+                   <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
+                     <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
+                   </div>
+                   <span className="leading-relaxed">
+                     Use extensive knowledge of hardware and software components to identify where technical issues may
+                     originate from and educate others on the team.
+                   </span>
+                 </li>
+                 <li className="flex gap-3">
+                   <div className="bg-primary/10 p-2 rounded-full h-min mt-1">
+                     <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
+                   </div>
+                   <span className="leading-relaxed">
+                     Assisted clients with selecting the right technology by offering new and refurbished PCs, emphasizing both performance value and budget-conscious choices.
+                   </span>
+                 </li>
+               </ul>
             </div>
           </div>
         </div>
@@ -458,7 +476,56 @@ export default function Home() {
           <h2 className="section-heading">Projects</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Project 1 */}
+            {/* Project 1 - ChatGPT (Spans 2 columns) */}
+            <div className="modern-card glass group md:col-span-2">
+              <div className="absolute top-0 right-0 p-4">
+                <div className="bg-primary/10 p-2 rounded-full">
+                  <Bot className="h-5 w-5 text-primary" />
+                </div>
+              </div>
+              <div className="mb-4">
+                <Badge variant="outline" className="bg-primary/10 border-primary/30 rounded-full">
+                  AI & Automation
+                </Badge>
+              </div>
+              <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+                Incorporating ChatGPT to Automate Threat Hunting
+              </h3>
+              <p className="text-foreground/70 mb-6 leading-relaxed">
+                Currently testing and developing an innovative approach to automate threat hunting processes using ChatGPT integration. This project aims to enhance security operations efficiency through AI-powered analysis and response automation.
+              </p>
+              <div className="flex justify-between items-center mt-6">
+                <div className="flex gap-2">
+                  <Badge variant="secondary" className="rounded-full">
+                    ChatGPT API
+                  </Badge>
+                  <Badge variant="secondary" className="rounded-full">
+                    Python
+                  </Badge>
+                  <Badge variant="secondary" className="rounded-full">
+                    Coming Soon
+                  </Badge>
+                </div>
+                <Button
+                  asChild
+                  variant="outline"
+                  size="sm"
+                  className="rounded-full group-hover:bg-primary/10 group-hover:text-primary transition-all"
+                  disabled
+                >
+                  <a
+                    href="#"
+                    className="flex items-center opacity-50 cursor-not-allowed"
+                  >
+                    <Github className="mr-2 h-4 w-4" />
+                    Coming Soon
+                    <ChevronRight className="ml-1 h-4 w-4 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
+                  </a>
+                </Button>
+              </div>
+            </div>
+
+            {/* Project 2 */}
             <div className="modern-card glass group">
               <div className="absolute top-0 right-0 p-4">
                 <div className="bg-primary/10 p-2 rounded-full">
@@ -506,7 +573,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 2 */}
+            {/* Project 3 */}
             <div className="modern-card glass group">
               <div className="absolute top-0 right-0 p-4">
                 <div className="bg-primary/10 p-2 rounded-full">
@@ -649,6 +716,8 @@ export default function Home() {
                 </Button>
               </div>
             </div>
+
+
           </div>
         </div>
       </section>
@@ -711,26 +780,38 @@ export default function Home() {
               <div className="space-y-8">
                 <div className="glass rounded-xl p-4">
                   <h4 className="font-medium mb-3 text-primary">Certifications</h4>
-                  <ul className="space-y-3">
-                    <li className="flex items-center gap-3">
-                      <div className="bg-primary/10 p-2 rounded-full">
-                        <Shield className="h-4 w-4 text-primary" />
-                      </div>
-                      <span>CompTIA Security+</span>
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <div className="bg-primary/10 p-2 rounded-full">
-                        <Shield className="h-4 w-4 text-primary" />
-                      </div>
-                      <span>ISC2 CC Entry-Level Cybersecurity</span>
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <div className="bg-primary/10 p-2 rounded-full">
-                        <Shield className="h-4 w-4 text-primary" />
-                      </div>
-                      <span>Google Cybersecurity Professional</span>
-                    </li>
-                  </ul>
+                                     <ul className="space-y-3">
+                     <li className="flex items-center gap-3">
+                       <div className="bg-primary/10 p-2 rounded-full">
+                         <Shield className="h-4 w-4 text-primary" />
+                       </div>
+                       <span>CompTIA Security+</span>
+                     </li>
+                     <li className="flex items-center gap-3">
+                       <div className="bg-primary/10 p-2 rounded-full">
+                         <Shield className="h-4 w-4 text-primary" />
+                       </div>
+                       <span>ISC2 CC Entry-Level Cybersecurity</span>
+                     </li>
+                     <li className="flex items-center gap-3">
+                       <div className="bg-primary/10 p-2 rounded-full">
+                         <Shield className="h-4 w-4 text-primary" />
+                       </div>
+                       <span>Google Cybersecurity Professional</span>
+                     </li>
+                     <li className="flex items-center gap-3">
+                       <div className="bg-primary/10 p-2 rounded-full">
+                         <Shield className="h-4 w-4 text-primary" />
+                       </div>
+                       <span>Oracle Cloud Infrastructure 2025 Foundations Associate</span>
+                     </li>
+                     <li className="flex items-center gap-3">
+                       <div className="bg-primary/10 p-2 rounded-full">
+                         <Shield className="h-4 w-4 text-primary" />
+                       </div>
+                       <span>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</span>
+                     </li>
+                   </ul>
                 </div>
 
                 <div className="glass rounded-xl p-4">
