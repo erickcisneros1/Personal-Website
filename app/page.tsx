@@ -245,20 +245,20 @@ export default function Home() {
                   <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary mb-2 text-sm font-medium">
                     Current Position
                   </div>
-                  <h3 className="text-2xl font-bold">Cyber Security Support Analyst</h3>
+                  <h3 className="text-2xl font-bold">Cyber Security Support Analyst (Vulnerability Management & SecOps Intern)</h3>
                   <p className="text-primary mt-1">Log(N) Pacific</p>
                 </div>
-                <div className="text-foreground/70 mt-2 md:mt-0 px-4 py-2 rounded-full glass text-sm">
+                <div className="text-foreground/70 mt-2 md:mt-0 h-14 w-56 rounded-full glass text-sm flex items-center justify-center">
                   February 2025 - Present
                 </div>
               </div>
 
               <Tabs defaultValue="vm" className="mt-6">
-                <TabsList className="grid w-full grid-cols-2 rounded-full p-1">
-                  <TabsTrigger value="vm" className="rounded-full data-[state=active]:bg-primary/20">
+                <TabsList className="grid w-full grid-cols-1 sm:grid-cols-2 rounded-full p-1 gap-1">
+                  <TabsTrigger value="vm" className="rounded-full data-[state=active]:bg-primary/20 text-xs sm:text-sm">
                     Vulnerability Management
                   </TabsTrigger>
-                  <TabsTrigger value="secops" className="rounded-full data-[state=active]:bg-primary/20">
+                  <TabsTrigger value="secops" className="rounded-full data-[state=active]:bg-primary/20 text-xs sm:text-sm">
                     Security Operations
                   </TabsTrigger>
                 </TabsList>
@@ -380,7 +380,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">Technical Expert | Technical Specialist | Sales Specialist</h3>
                   <p className="text-primary mt-1">Apple</p>
                 </div>
-                <div className="text-foreground/70 mt-2 md:mt-0 px-4 py-2 rounded-full glass text-sm">
+                <div className="text-foreground/70 mt-2 md:mt-0 h-14 w-56 rounded-full glass text-sm flex items-center justify-center">
                   August 2021 - Present
                 </div>
               </div>
@@ -432,7 +432,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">Repair Technician</h3>
                   <p className="text-primary mt-1">Computuners</p>
                 </div>
-                <div className="text-foreground/70 mt-2 md:mt-0 px-4 py-2 rounded-full glass text-sm">
+                <div className="text-foreground/70 mt-2 md:mt-0 h-14 w-56 rounded-full glass text-sm flex items-center justify-center">
                   October 2020 - March 2021
                 </div>
               </div>
