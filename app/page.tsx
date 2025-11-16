@@ -785,6 +785,12 @@ export default function Home() {
                        <div className="bg-primary/10 p-2 rounded-full">
                          <Shield className="h-4 w-4 text-primary" />
                        </div>
+                       <span>CompTIA A+</span>
+                     </li>
+                     <li className="flex items-center gap-3">
+                       <div className="bg-primary/10 p-2 rounded-full">
+                         <Shield className="h-4 w-4 text-primary" />
+                       </div>
                        <span>CompTIA Security+</span>
                      </li>
                      <li className="flex items-center gap-3">
